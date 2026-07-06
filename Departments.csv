@@ -1,0 +1,11 @@
+Dept_ID, Dept_Name       , Location , Manager_ID, Budget  , Established_Year
+D001   , Engineering     , Pune     , EMP00169  , 15000000,             2010
+D002   , Data & Analytics, Bangalore, EMP00150  ,  8000000,             2015
+D003   , Human Resources , Mumbai   , EMP00482  ,  4000000,             2008
+D004   , Finance         , Mumbai   , EMP00133  ,  6000000,             2008
+D005   , Marketing       , Delhi    , EMP00201  ,  5000000,             2012
+D006   , Sales           , Hyderabad, EMP00204  ,  7000000,             2009
+D007   , Operations      , Chennai  , EMP00496  ,  9000000,             2011
+D008   , Legal           , Pune     , EMP00115  ,  3000000,             2013
+D009   , Customer Support, Bangalore, EMP00206  ,  4500000,             2014
+D010   , Research & Dev  , Pune     , EMP00244  , 12000000,             2016
