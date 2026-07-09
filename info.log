@@ -1,0 +1,4 @@
+2026-07-09 20:13:06 - INFO - Extraction Process is started
+2026-07-09 20:13:08 - INFO - Extract Process is Completed
+2026-07-09 20:13:08 - INFO - Transformation Process is started...
+2026-07-09 20:13:09 - WARNING - 237 employees have no Dept_id orphan records detected

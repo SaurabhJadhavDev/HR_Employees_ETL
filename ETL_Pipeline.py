@@ -5,10 +5,13 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 import logging
-logging.basicConfig(level=logging.INFO,filename="Logs.log",format='%(asctime)s - %(levelname)s - %(message)s',datefmt='%Y - %m -%d  %H-%M-%S')
 from sqlalchemy import create_engine
 import time
 load_dotenv()
+
+#===========================
+# Structure of Output
+#===========================
 
 pd.set_option('display.max_columns',None)
 
@@ -16,15 +19,39 @@ pd.set_option('display.width',None)
 
 pd.set_option('display.max_colwidth',None)
 
+#============================
+# Logging Structure
+#===========================
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+info_handler = logging.FileHandler("info.log")
+info_handler.setLevel(logging.INFO)
+
+warn_handler = logging.FileHandler("Warnings.log")
+warn_handler.setLevel(logging.WARNING)
+
+formatter = logging.Formatter(
+   "%(asctime)s - %(levelname)s - %(message)s",
+   datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+info_handler.setFormatter(formatter)
+warn_handler.setFormatter(formatter)
+
+logger.addHandler(info_handler)
+logger.addHandler(warn_handler)
+
 #=======================
 # Extract
 #=======================
 
-def extract():                                                                  #Extract Function
+def extract():                                                                  # Extract Function
     
     try:  
      
-     logging.info("Extraction Process is started")                                                                         
+     logger.info("Extraction Process is started")                                                                         
 
      Employees = pd.read_csv(os.getenv("Emp_file"))                              # Employees Csv File Extracted
 
@@ -38,9 +65,9 @@ def extract():                                                                  
 
     except FileNotFoundError as e:
        
-       logging.error(f"File is missing: {e}")
+       logger.error(f"File is missing: {e}")
 
-    logging.info("Extract Process is Completed")
+    logger.info("Extract Process is Completed")
 
     return Employees,Departments,Attendance,Performance,Salary                        
 
@@ -51,6 +78,8 @@ def extract():                                                                  
 def transform(Employees,Departments,Attendance,Performance,Salary):
 
     try:
+     
+     logger.info("Transformation Process is started...")
 
      Employees = Employees.replace(r'^\s*$', pd.NA, regex=True)
 
@@ -84,12 +113,29 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
 
      Employees[string_cols] = Employees[string_cols].astype("string")
 
+     Employees["Phone_Null_Flag"] = Employees["Phone"].apply(lambda x:True if pd.isna(x) else False)
+
+     Employees["Email_Null_Flag"] = Employees["Email"].apply(lambda x:True if pd.isna(x) else False)
+
+     Employees["Education_Null_Flag"] = Employees["Education"].apply(lambda x:True if pd.isna(x) else False)
+
+     Employees["Blood_Group_Null_Flag"] = Employees["Blood_Group"].apply(lambda x:True if pd.isna(x) else False)
+
+     Employees["Emergency_Contact_Null_Flag"] = Employees["Emergency_Contact"].apply(lambda x:True if pd.isna(x) else False)
+
+     Employees["Dept_ID_Null_Flag"] = Employees["Dept_ID"].apply(lambda x: True if pd.isna(x) else False)
+
+     null_dept_count = Employees["Dept_ID"].isnull().sum()
+
+     if null_dept_count > 0:
+        
+        logger.warning(f"{null_dept_count} employees have no Dept_id orphan records detected")
 
     except Exception as e:
        
-       logging.error(f"Failed to transform: {e}")
+       logger.error(f"Failed to transform: {e}")
 
-    return Employees.info()
+    return Employees
 
 Employees, Departments, Attendance, Performance, Salary = extract()
 show = transform(Employees, Departments, Attendance, Performance, Salary)
