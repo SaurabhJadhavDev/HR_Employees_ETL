@@ -2,3 +2,24 @@
 2026-07-09 20:13:08 - INFO - Extract Process is Completed
 2026-07-09 20:13:08 - INFO - Transformation Process is started...
 2026-07-09 20:13:09 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 22:55:18 - INFO - Extraction Process is started
+2026-07-11 22:55:21 - INFO - Extract Process is Completed
+2026-07-11 22:55:21 - INFO - Transformation Process is started...
+2026-07-11 22:55:24 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 22:55:45 - INFO - Extraction Process is started
+2026-07-11 22:55:48 - INFO - Extract Process is Completed
+2026-07-11 22:55:48 - INFO - Transformation Process is started...
+2026-07-11 22:55:52 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 22:57:43 - INFO - Extraction Process is started
+2026-07-11 22:57:46 - INFO - Extract Process is Completed
+2026-07-11 22:57:46 - INFO - Transformation Process is started...
+2026-07-11 22:57:51 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 23:04:31 - INFO - Extraction Process is started
+2026-07-11 23:04:32 - INFO - Extract Process is Completed
+2026-07-11 23:04:32 - INFO - Transformation Process is started...
+2026-07-11 23:04:34 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 23:13:17 - INFO - Extraction Process is started
+2026-07-11 23:13:19 - INFO - Extract Process is Completed
+2026-07-11 23:13:19 - INFO - Transformation Process is started...
+2026-07-11 23:13:20 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-11 23:13:20 - ERROR - Failed to transform: 'str' object has no attribute 'str'

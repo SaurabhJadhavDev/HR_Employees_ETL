@@ -131,11 +131,23 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
         
         logger.warning(f"{null_dept_count} employees have no Dept_id orphan records detected")
 
+     Departments["Dept_ID"] = Departments["Dept_ID"].str.strip()
+
+     Departments["Dept_Name"] = Departments["Dept_Name"].str.strip()
+
+     Departments["Location"] = Departments["Location"].str.strip()
+
+     Departments["Manager_ID"] = Departments["Manager_ID"].str.strip()
+
+     Departments["Budget"] = Departments["Budget"].str.strip()
+
+     Departments["Established_Year"] = Departments["Established_Year"].str.strip()
+
     except Exception as e:
        
        logger.error(f"Failed to transform: {e}")
 
-    return Employees
+    return Departments
 
 Employees, Departments, Attendance, Performance, Salary = extract()
 show = transform(Employees, Departments, Attendance, Performance, Salary)
