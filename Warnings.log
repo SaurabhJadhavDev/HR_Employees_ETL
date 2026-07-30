@@ -5,3 +5,65 @@
 2026-07-11 23:04:34 - WARNING - 237 employees have no Dept_id orphan records detected
 2026-07-11 23:13:20 - WARNING - 237 employees have no Dept_id orphan records detected
 2026-07-11 23:13:20 - ERROR - Failed to transform: 'str' object has no attribute 'str'
+2026-07-12 12:10:42 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:10:42 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:11:38 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:11:38 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:14:11 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:14:11 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:14:53 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:14:53 - ERROR - Failed to transform: "['Dept_Name'] not in index"
+2026-07-12 12:17:16 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:17:16 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID', 'Budget', 'Established_Year'] not in index"
+2026-07-12 12:19:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:19:30 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID'] not in index"
+2026-07-12 12:19:41 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:19:41 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID'] not in index"
+2026-07-12 12:22:26 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:22:26 - ERROR - Failed to transform: Can only use .str accessor with string values, not integer
+2026-07-12 12:23:03 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:23:28 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:12 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:25 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:42 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:30:28 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:31:06 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:13:15 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:14:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:14:00 - ERROR - Failed to transform: ''
+2026-07-13 23:14:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:14:30 - ERROR - Failed to transform: ''
+2026-07-13 23:15:34 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:16:01 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:17:31 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:17:49 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:08 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:54 - ERROR - Failed to transform: ''
+2026-07-30 13:04:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:04:56 - ERROR - Failed to transform: ''
+2026-07-30 13:08:51 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:08:51 - ERROR - Failed to transform: ''
+2026-07-30 13:36:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:36:23 - ERROR - Failed to transform: Can only use .str accessor with string values, not integer
+2026-07-30 13:41:25 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:46:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:47:26 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:52:53 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:54:15 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:27:36 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:48:10 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:48:10 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:49:38 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:49:39 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:50:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:50:00 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:50:14 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:50:15 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:54:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:04:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:04:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:12:04 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:13:02 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:19:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:25:23 - WARNING - 237 employees have no Dept_id orphan records detected

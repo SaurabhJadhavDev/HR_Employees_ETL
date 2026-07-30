@@ -102,7 +102,8 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
         "DOB","Join_Date"
      ]
 
-     
+     # Employees Transformation
+
      Employees[string_cols] = Employees[string_cols].apply(lambda col:col.str.strip())
 
      Employees[date_cols] = Employees[date_cols].apply(lambda col:col.str.strip())
@@ -131,6 +132,11 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
         
         logger.warning(f"{null_dept_count} employees have no Dept_id orphan records detected")
 
+
+     # Departments Performance
+
+     Departments.columns = Departments.columns.str.strip()
+
      Departments["Dept_ID"] = Departments["Dept_ID"].str.strip()
 
      Departments["Dept_Name"] = Departments["Dept_Name"].str.strip()
@@ -139,15 +145,60 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
 
      Departments["Manager_ID"] = Departments["Manager_ID"].str.strip()
 
-     Departments["Budget"] = Departments["Budget"].str.strip()
+     #Attendance Transformation
 
-     Departments["Established_Year"] = Departments["Established_Year"].str.strip()
+     Attendance.columns = Attendance.columns.str.strip()
 
+     Attendance["Att_ID"] = Attendance["Att_ID"].str.strip()
+
+     Attendance["Emp_ID"] = Attendance["Emp_ID"].str.strip()
+
+     Attendance["Leave_Type"] = Attendance["Leave_Type"].str.strip()
+
+     Attendance["Recorded_By"] = Attendance["Recorded_By"].str.strip()
+
+     Attendance["Leave_Type"] = Attendance["Leave_Type"].str.title()
+
+     Attendance["Leave_Type_Flag"] = Attendance["Leave_Type"].apply(lambda x:True if pd.isna(x) else False)
+
+     Attendance["WFH_Days_Flag"] = Attendance["WFH_Days"].apply(lambda x: True if pd.isna(x) else False)
+
+
+    # Performance Transformation
+     
+     Performance.columns = Performance.columns.str.strip()
+
+     Performance["Self_Rating"] = Performance["Self_Rating"].astype("float64")
+
+     Performance["Perf_ID"] = Performance["Perf_ID"].str.strip()
+
+     Performance["Emp_ID"] = Performance["Emp_ID"].str.strip()
+
+     Performance["Quarter"] = Performance["Quarter"].str.strip()
+
+     Performance["Rating"] = Performance["Rating"].str.strip()
+
+     Performance["Promotion_Recommended"] = Performance["Promotion_Recommended"].str.strip()
+
+     Performance["Manager_Feedback_Flag"] = Performance["Manager_Feedback"].apply(lambda x: True if pd.isna(x) else False )
+
+     Performance["Self_Rating"] = Performance["Self_Rating"].fillna(Performance["Self_Rating"].mean())
+
+     Performance["Promotion_Recommended"] = Performance["Promotion_Recommended"].apply(lambda x: True if pd.isna(x) else False)
+
+    # Salaries Transformation
+
+     Salary.columns = Salary.columns.str.strip()
+
+
+
+
+     
     except Exception as e:
        
        logger.error(f"Failed to transform: {e}")
 
-    return Departments
+    return Salary.dtypes
 
 Employees, Departments, Attendance, Performance, Salary = extract()
 show = transform(Employees, Departments, Attendance, Performance, Salary)

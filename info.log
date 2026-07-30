@@ -23,3 +23,197 @@
 2026-07-11 23:13:19 - INFO - Transformation Process is started...
 2026-07-11 23:13:20 - WARNING - 237 employees have no Dept_id orphan records detected
 2026-07-11 23:13:20 - ERROR - Failed to transform: 'str' object has no attribute 'str'
+2026-07-12 12:10:39 - INFO - Extraction Process is started
+2026-07-12 12:10:40 - INFO - Extract Process is Completed
+2026-07-12 12:10:40 - INFO - Transformation Process is started...
+2026-07-12 12:10:42 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:10:42 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:11:34 - INFO - Extraction Process is started
+2026-07-12 12:11:36 - INFO - Extract Process is Completed
+2026-07-12 12:11:36 - INFO - Transformation Process is started...
+2026-07-12 12:11:38 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:11:38 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:14:07 - INFO - Extraction Process is started
+2026-07-12 12:14:08 - INFO - Extract Process is Completed
+2026-07-12 12:14:08 - INFO - Transformation Process is started...
+2026-07-12 12:14:11 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:14:11 - ERROR - Failed to transform: 'Dept_Name'
+2026-07-12 12:14:49 - INFO - Extraction Process is started
+2026-07-12 12:14:51 - INFO - Extract Process is Completed
+2026-07-12 12:14:51 - INFO - Transformation Process is started...
+2026-07-12 12:14:53 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:14:53 - ERROR - Failed to transform: "['Dept_Name'] not in index"
+2026-07-12 12:17:12 - INFO - Extraction Process is started
+2026-07-12 12:17:14 - INFO - Extract Process is Completed
+2026-07-12 12:17:14 - INFO - Transformation Process is started...
+2026-07-12 12:17:16 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:17:16 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID', 'Budget', 'Established_Year'] not in index"
+2026-07-12 12:19:27 - INFO - Extraction Process is started
+2026-07-12 12:19:28 - INFO - Extract Process is Completed
+2026-07-12 12:19:28 - INFO - Transformation Process is started...
+2026-07-12 12:19:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:19:30 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID'] not in index"
+2026-07-12 12:19:38 - INFO - Extraction Process is started
+2026-07-12 12:19:39 - INFO - Extract Process is Completed
+2026-07-12 12:19:39 - INFO - Transformation Process is started...
+2026-07-12 12:19:41 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:19:41 - ERROR - Failed to transform: "['Dept_Name', 'Location', 'Manager_ID'] not in index"
+2026-07-12 12:22:22 - INFO - Extraction Process is started
+2026-07-12 12:22:23 - INFO - Extract Process is Completed
+2026-07-12 12:22:23 - INFO - Transformation Process is started...
+2026-07-12 12:22:26 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:22:26 - ERROR - Failed to transform: Can only use .str accessor with string values, not integer
+2026-07-12 12:23:00 - INFO - Extraction Process is started
+2026-07-12 12:23:01 - INFO - Extract Process is Completed
+2026-07-12 12:23:01 - INFO - Transformation Process is started...
+2026-07-12 12:23:03 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:23:25 - INFO - Extraction Process is started
+2026-07-12 12:23:26 - INFO - Extract Process is Completed
+2026-07-12 12:23:26 - INFO - Transformation Process is started...
+2026-07-12 12:23:28 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:08 - INFO - Extraction Process is started
+2026-07-12 12:29:09 - INFO - Extract Process is Completed
+2026-07-12 12:29:09 - INFO - Transformation Process is started...
+2026-07-12 12:29:12 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:21 - INFO - Extraction Process is started
+2026-07-12 12:29:22 - INFO - Extract Process is Completed
+2026-07-12 12:29:22 - INFO - Transformation Process is started...
+2026-07-12 12:29:25 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:29:39 - INFO - Extraction Process is started
+2026-07-12 12:29:40 - INFO - Extract Process is Completed
+2026-07-12 12:29:40 - INFO - Transformation Process is started...
+2026-07-12 12:29:42 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:30:24 - INFO - Extraction Process is started
+2026-07-12 12:30:26 - INFO - Extract Process is Completed
+2026-07-12 12:30:26 - INFO - Transformation Process is started...
+2026-07-12 12:30:28 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-12 12:31:02 - INFO - Extraction Process is started
+2026-07-12 12:31:04 - INFO - Extract Process is Completed
+2026-07-12 12:31:04 - INFO - Transformation Process is started...
+2026-07-12 12:31:06 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:13:10 - INFO - Extraction Process is started
+2026-07-13 23:13:12 - INFO - Extract Process is Completed
+2026-07-13 23:13:12 - INFO - Transformation Process is started...
+2026-07-13 23:13:15 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:13:53 - INFO - Extraction Process is started
+2026-07-13 23:13:56 - INFO - Extract Process is Completed
+2026-07-13 23:13:56 - INFO - Transformation Process is started...
+2026-07-13 23:14:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:14:00 - ERROR - Failed to transform: ''
+2026-07-13 23:14:23 - INFO - Extraction Process is started
+2026-07-13 23:14:26 - INFO - Extract Process is Completed
+2026-07-13 23:14:26 - INFO - Transformation Process is started...
+2026-07-13 23:14:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:14:30 - ERROR - Failed to transform: ''
+2026-07-13 23:15:28 - INFO - Extraction Process is started
+2026-07-13 23:15:31 - INFO - Extract Process is Completed
+2026-07-13 23:15:31 - INFO - Transformation Process is started...
+2026-07-13 23:15:34 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:15:53 - INFO - Extraction Process is started
+2026-07-13 23:15:56 - INFO - Extract Process is Completed
+2026-07-13 23:15:56 - INFO - Transformation Process is started...
+2026-07-13 23:16:01 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:17:24 - INFO - Extraction Process is started
+2026-07-13 23:17:27 - INFO - Extract Process is Completed
+2026-07-13 23:17:27 - INFO - Transformation Process is started...
+2026-07-13 23:17:31 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:17:43 - INFO - Extraction Process is started
+2026-07-13 23:17:45 - INFO - Extract Process is Completed
+2026-07-13 23:17:45 - INFO - Transformation Process is started...
+2026-07-13 23:17:49 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:02 - INFO - Extraction Process is started
+2026-07-13 23:20:04 - INFO - Extract Process is Completed
+2026-07-13 23:20:04 - INFO - Transformation Process is started...
+2026-07-13 23:20:08 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:47 - INFO - Extraction Process is started
+2026-07-13 23:20:50 - INFO - Extract Process is Completed
+2026-07-13 23:20:50 - INFO - Transformation Process is started...
+2026-07-13 23:20:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-13 23:20:54 - ERROR - Failed to transform: ''
+2026-07-30 13:04:53 - INFO - Extraction Process is started
+2026-07-30 13:04:54 - INFO - Extract Process is Completed
+2026-07-30 13:04:54 - INFO - Transformation Process is started...
+2026-07-30 13:04:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:04:56 - ERROR - Failed to transform: ''
+2026-07-30 13:08:48 - INFO - Extraction Process is started
+2026-07-30 13:08:49 - INFO - Extract Process is Completed
+2026-07-30 13:08:49 - INFO - Transformation Process is started...
+2026-07-30 13:08:51 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:08:51 - ERROR - Failed to transform: ''
+2026-07-30 13:36:20 - INFO - Extraction Process is started
+2026-07-30 13:36:21 - INFO - Extract Process is Completed
+2026-07-30 13:36:21 - INFO - Transformation Process is started...
+2026-07-30 13:36:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:36:23 - ERROR - Failed to transform: Can only use .str accessor with string values, not integer
+2026-07-30 13:41:22 - INFO - Extraction Process is started
+2026-07-30 13:41:23 - INFO - Extract Process is Completed
+2026-07-30 13:41:23 - INFO - Transformation Process is started...
+2026-07-30 13:41:25 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:45:56 - INFO - Extraction Process is started
+2026-07-30 13:45:58 - INFO - Extract Process is Completed
+2026-07-30 13:45:58 - INFO - Transformation Process is started...
+2026-07-30 13:46:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:47:23 - INFO - Extraction Process is started
+2026-07-30 13:47:24 - INFO - Extract Process is Completed
+2026-07-30 13:47:24 - INFO - Transformation Process is started...
+2026-07-30 13:47:26 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:52:50 - INFO - Extraction Process is started
+2026-07-30 13:52:51 - INFO - Extract Process is Completed
+2026-07-30 13:52:51 - INFO - Transformation Process is started...
+2026-07-30 13:52:53 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 13:54:12 - INFO - Extraction Process is started
+2026-07-30 13:54:13 - INFO - Extract Process is Completed
+2026-07-30 13:54:13 - INFO - Transformation Process is started...
+2026-07-30 13:54:15 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:27:32 - INFO - Extraction Process is started
+2026-07-30 15:27:34 - INFO - Extract Process is Completed
+2026-07-30 15:27:34 - INFO - Transformation Process is started...
+2026-07-30 15:27:36 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:48:06 - INFO - Extraction Process is started
+2026-07-30 15:48:08 - INFO - Extract Process is Completed
+2026-07-30 15:48:08 - INFO - Transformation Process is started...
+2026-07-30 15:48:10 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:48:10 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:49:35 - INFO - Extraction Process is started
+2026-07-30 15:49:37 - INFO - Extract Process is Completed
+2026-07-30 15:49:37 - INFO - Transformation Process is started...
+2026-07-30 15:49:38 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:49:39 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:49:56 - INFO - Extraction Process is started
+2026-07-30 15:49:58 - INFO - Extract Process is Completed
+2026-07-30 15:49:58 - INFO - Transformation Process is started...
+2026-07-30 15:50:00 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:50:00 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:50:10 - INFO - Extraction Process is started
+2026-07-30 15:50:12 - INFO - Extract Process is Completed
+2026-07-30 15:50:12 - INFO - Transformation Process is started...
+2026-07-30 15:50:14 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 15:50:15 - ERROR - Failed to transform: Cannot perform reduction 'mean' with string dtype
+2026-07-30 15:54:19 - INFO - Extraction Process is started
+2026-07-30 15:54:21 - INFO - Extract Process is Completed
+2026-07-30 15:54:21 - INFO - Transformation Process is started...
+2026-07-30 15:54:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:04:27 - INFO - Extraction Process is started
+2026-07-30 16:04:28 - INFO - Extract Process is Completed
+2026-07-30 16:04:28 - INFO - Transformation Process is started...
+2026-07-30 16:04:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:04:53 - INFO - Extraction Process is started
+2026-07-30 16:04:54 - INFO - Extract Process is Completed
+2026-07-30 16:04:54 - INFO - Transformation Process is started...
+2026-07-30 16:04:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:12:01 - INFO - Extraction Process is started
+2026-07-30 16:12:02 - INFO - Extract Process is Completed
+2026-07-30 16:12:02 - INFO - Transformation Process is started...
+2026-07-30 16:12:04 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:12:59 - INFO - Extraction Process is started
+2026-07-30 16:13:01 - INFO - Extract Process is Completed
+2026-07-30 16:13:01 - INFO - Transformation Process is started...
+2026-07-30 16:13:02 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:19:27 - INFO - Extraction Process is started
+2026-07-30 16:19:28 - INFO - Extract Process is Completed
+2026-07-30 16:19:28 - INFO - Transformation Process is started...
+2026-07-30 16:19:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-07-30 16:25:20 - INFO - Extraction Process is started
+2026-07-30 16:25:22 - INFO - Extract Process is Completed
+2026-07-30 16:25:22 - INFO - Transformation Process is started...
+2026-07-30 16:25:23 - WARNING - 237 employees have no Dept_id orphan records detected
