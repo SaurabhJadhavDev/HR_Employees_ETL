@@ -67,3 +67,66 @@
 2026-07-30 16:13:02 - WARNING - 237 employees have no Dept_id orphan records detected
 2026-07-30 16:19:30 - WARNING - 237 employees have no Dept_id orphan records detected
 2026-07-30 16:25:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:09:41 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:10:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:11:22 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:12:08 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:12:37 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:14:59 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:15:00 - ERROR - Failed to transform: Cannot perform reduction 'median' with string dtype
+2026-08-01 20:29:39 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:33:35 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:34:03 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:34:27 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:34:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:35:32 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:49:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:49:55 - ERROR - Failed to transform: ''
+2026-08-01 20:50:21 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:50:22 - ERROR - Failed to transform: ''
+2026-08-01 20:50:44 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:50:45 - ERROR - Failed to transform: ''
+2026-08-01 20:51:07 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:51:08 - ERROR - Failed to transform: ''
+2026-08-01 20:52:32 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:52:33 - ERROR - Failed to transform: ''
+2026-08-01 21:23:27 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:23:28 - ERROR - Failed to load: No module named 'mysql'
+2026-08-01 21:23:50 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:23:51 - ERROR - Failed to load: Can't load plugin: sqlalchemy.dialects:pymysql.mysqlconnector
+2026-08-01 21:26:22 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:26:24 - ERROR - Failed to load: (pymysql.err.ProgrammingError) (1166, "Incorrect column name 'Emp_ID  '")
+[SQL: 
+CREATE TABLE `Employees` (
+	`Emp_ID  ` TEXT, 
+	` First_Name ` TEXT, 
+	` Last_Name      ` TEXT, 
+	` Gender` TEXT, 
+	` DOB       ` TEXT, 
+	` Phone        ` TEXT, 
+	` Email                               ` TEXT, 
+	` City                        ` TEXT, 
+	` State            ` TEXT, 
+	` Dept_ID` TEXT, 
+	` Job_Title             ` TEXT, 
+	` Join_Date ` TEXT, 
+	` Employment_Status` TEXT, 
+	` Education` TEXT, 
+	` Blood_Group` TEXT, 
+	` Emergency_Contact` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-01 21:31:14 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:10:19 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:10:20 - ERROR - Failed to load: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@localhost:3306/Employees_Details): (Employees)
+2026-08-01 23:10:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:10:58 - ERROR - Failed to load: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '3306' ([Errno 11001] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-08-01 23:11:17 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:11:18 - ERROR - Failed to load: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@localhost/Employees_Details): (Employees)
+2026-08-01 23:12:13 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:12:13 - ERROR - Failed to load: (pymysql.err.OperationalError) (1049, "Unknown database 'employees_details_1'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-08-01 23:13:30 - WARNING - 237 employees have no Dept_id orphan records detected

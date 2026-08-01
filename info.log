@@ -217,3 +217,154 @@
 2026-07-30 16:25:22 - INFO - Extract Process is Completed
 2026-07-30 16:25:22 - INFO - Transformation Process is started...
 2026-07-30 16:25:23 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:09:37 - INFO - Extraction Process is started
+2026-08-01 20:09:39 - INFO - Extract Process is Completed
+2026-08-01 20:09:39 - INFO - Transformation Process is started...
+2026-08-01 20:09:41 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:10:24 - INFO - Extraction Process is started
+2026-08-01 20:10:26 - INFO - Extract Process is Completed
+2026-08-01 20:10:26 - INFO - Transformation Process is started...
+2026-08-01 20:10:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:11:16 - INFO - Extraction Process is started
+2026-08-01 20:11:18 - INFO - Extract Process is Completed
+2026-08-01 20:11:18 - INFO - Transformation Process is started...
+2026-08-01 20:11:22 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:12:02 - INFO - Extraction Process is started
+2026-08-01 20:12:04 - INFO - Extract Process is Completed
+2026-08-01 20:12:04 - INFO - Transformation Process is started...
+2026-08-01 20:12:08 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:12:30 - INFO - Extraction Process is started
+2026-08-01 20:12:33 - INFO - Extract Process is Completed
+2026-08-01 20:12:33 - INFO - Transformation Process is started...
+2026-08-01 20:12:37 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:14:52 - INFO - Extraction Process is started
+2026-08-01 20:14:55 - INFO - Extract Process is Completed
+2026-08-01 20:14:55 - INFO - Transformation Process is started...
+2026-08-01 20:14:59 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:15:00 - ERROR - Failed to transform: Cannot perform reduction 'median' with string dtype
+2026-08-01 20:29:34 - INFO - Extraction Process is started
+2026-08-01 20:29:35 - INFO - Extract Process is Completed
+2026-08-01 20:29:35 - INFO - Transformation Process is started...
+2026-08-01 20:29:39 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:33:32 - INFO - Extraction Process is started
+2026-08-01 20:33:34 - INFO - Extract Process is Completed
+2026-08-01 20:33:34 - INFO - Transformation Process is started...
+2026-08-01 20:33:35 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:33:59 - INFO - Extraction Process is started
+2026-08-01 20:34:01 - INFO - Extract Process is Completed
+2026-08-01 20:34:01 - INFO - Transformation Process is started...
+2026-08-01 20:34:03 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:34:24 - INFO - Extraction Process is started
+2026-08-01 20:34:26 - INFO - Extract Process is Completed
+2026-08-01 20:34:26 - INFO - Transformation Process is started...
+2026-08-01 20:34:27 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:34:53 - INFO - Extraction Process is started
+2026-08-01 20:34:55 - INFO - Extract Process is Completed
+2026-08-01 20:34:55 - INFO - Transformation Process is started...
+2026-08-01 20:34:56 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:35:29 - INFO - Extraction Process is started
+2026-08-01 20:35:30 - INFO - Extract Process is Completed
+2026-08-01 20:35:30 - INFO - Transformation Process is started...
+2026-08-01 20:35:32 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:49:51 - INFO - Extraction Process is started
+2026-08-01 20:49:52 - INFO - Extract Process is Completed
+2026-08-01 20:49:52 - INFO - Transformation Process is started...
+2026-08-01 20:49:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:49:55 - ERROR - Failed to transform: ''
+2026-08-01 20:50:18 - INFO - Extraction Process is started
+2026-08-01 20:50:19 - INFO - Extract Process is Completed
+2026-08-01 20:50:19 - INFO - Transformation Process is started...
+2026-08-01 20:50:21 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:50:22 - ERROR - Failed to transform: ''
+2026-08-01 20:50:41 - INFO - Extraction Process is started
+2026-08-01 20:50:42 - INFO - Extract Process is Completed
+2026-08-01 20:50:42 - INFO - Transformation Process is started...
+2026-08-01 20:50:44 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:50:45 - ERROR - Failed to transform: ''
+2026-08-01 20:51:04 - INFO - Extraction Process is started
+2026-08-01 20:51:05 - INFO - Extract Process is Completed
+2026-08-01 20:51:05 - INFO - Transformation Process is started...
+2026-08-01 20:51:07 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:51:08 - ERROR - Failed to transform: ''
+2026-08-01 20:52:29 - INFO - Extraction Process is started
+2026-08-01 20:52:31 - INFO - Extract Process is Completed
+2026-08-01 20:52:31 - INFO - Transformation Process is started...
+2026-08-01 20:52:32 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 20:52:33 - ERROR - Failed to transform: ''
+2026-08-01 21:23:23 - INFO - Extraction Process is started
+2026-08-01 21:23:25 - INFO - Extract Process is Completed
+2026-08-01 21:23:25 - INFO - Transformation Process is started...
+2026-08-01 21:23:27 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:23:28 - INFO - Transformation Process is Completed
+2026-08-01 21:23:28 - ERROR - Failed to load: No module named 'mysql'
+2026-08-01 21:23:47 - INFO - Extraction Process is started
+2026-08-01 21:23:48 - INFO - Extract Process is Completed
+2026-08-01 21:23:48 - INFO - Transformation Process is started...
+2026-08-01 21:23:50 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:23:51 - INFO - Transformation Process is Completed
+2026-08-01 21:23:51 - ERROR - Failed to load: Can't load plugin: sqlalchemy.dialects:pymysql.mysqlconnector
+2026-08-01 21:26:19 - INFO - Extraction Process is started
+2026-08-01 21:26:20 - INFO - Extract Process is Completed
+2026-08-01 21:26:20 - INFO - Transformation Process is started...
+2026-08-01 21:26:22 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:26:23 - INFO - Transformation Process is Completed
+2026-08-01 21:26:24 - ERROR - Failed to load: (pymysql.err.ProgrammingError) (1166, "Incorrect column name 'Emp_ID  '")
+[SQL: 
+CREATE TABLE `Employees` (
+	`Emp_ID  ` TEXT, 
+	` First_Name ` TEXT, 
+	` Last_Name      ` TEXT, 
+	` Gender` TEXT, 
+	` DOB       ` TEXT, 
+	` Phone        ` TEXT, 
+	` Email                               ` TEXT, 
+	` City                        ` TEXT, 
+	` State            ` TEXT, 
+	` Dept_ID` TEXT, 
+	` Job_Title             ` TEXT, 
+	` Join_Date ` TEXT, 
+	` Employment_Status` TEXT, 
+	` Education` TEXT, 
+	` Blood_Group` TEXT, 
+	` Emergency_Contact` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-01 21:31:11 - INFO - Extraction Process is started
+2026-08-01 21:31:12 - INFO - Extract Process is Completed
+2026-08-01 21:31:12 - INFO - Transformation Process is started...
+2026-08-01 21:31:14 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 21:31:15 - INFO - Transformation Process is Completed
+2026-08-01 23:10:16 - INFO - Extraction Process is started
+2026-08-01 23:10:17 - INFO - Extract Process is Completed
+2026-08-01 23:10:17 - INFO - Transformation Process is started...
+2026-08-01 23:10:19 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:10:20 - INFO - Transformation Process is Completed
+2026-08-01 23:10:20 - ERROR - Failed to load: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@localhost:3306/Employees_Details): (Employees)
+2026-08-01 23:10:51 - INFO - Extraction Process is started
+2026-08-01 23:10:52 - INFO - Extract Process is Completed
+2026-08-01 23:10:52 - INFO - Transformation Process is started...
+2026-08-01 23:10:54 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:10:55 - INFO - Transformation Process is Completed
+2026-08-01 23:10:58 - ERROR - Failed to load: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '3306' ([Errno 11001] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-08-01 23:11:14 - INFO - Extraction Process is started
+2026-08-01 23:11:15 - INFO - Extract Process is Completed
+2026-08-01 23:11:15 - INFO - Transformation Process is started...
+2026-08-01 23:11:17 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:11:18 - INFO - Transformation Process is Completed
+2026-08-01 23:11:18 - ERROR - Failed to load: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@localhost/Employees_Details): (Employees)
+2026-08-01 23:12:09 - INFO - Extraction Process is started
+2026-08-01 23:12:11 - INFO - Extract Process is Completed
+2026-08-01 23:12:11 - INFO - Transformation Process is started...
+2026-08-01 23:12:13 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:12:13 - INFO - Transformation Process is Completed
+2026-08-01 23:12:13 - ERROR - Failed to load: (pymysql.err.OperationalError) (1049, "Unknown database 'employees_details_1'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-08-01 23:13:26 - INFO - Extraction Process is started
+2026-08-01 23:13:28 - INFO - Extract Process is Completed
+2026-08-01 23:13:28 - INFO - Transformation Process is started...
+2026-08-01 23:13:30 - WARNING - 237 employees have no Dept_id orphan records detected
+2026-08-01 23:13:30 - INFO - Transformation Process is Completed
+2026-08-01 23:14:14 - INFO - Load Process is Completed Successfuully

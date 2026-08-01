@@ -63,11 +63,11 @@ def extract():                                                                  
 
      Salary = pd.read_csv(os.getenv("Salary_file"))                                   # Salary Csv file Extracted
 
+     logger.info("Extract Process is Completed")
+
     except FileNotFoundError as e:
        
        logger.error(f"File is missing: {e}")
-
-    logger.info("Extract Process is Completed")
 
     return Employees,Departments,Attendance,Performance,Salary                        
 
@@ -114,6 +114,8 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
 
      Employees[string_cols] = Employees[string_cols].astype("string")
 
+     Employees = Employees.drop_duplicates()
+
      Employees["Phone_Null_Flag"] = Employees["Phone"].apply(lambda x:True if pd.isna(x) else False)
 
      Employees["Email_Null_Flag"] = Employees["Email"].apply(lambda x:True if pd.isna(x) else False)
@@ -125,6 +127,8 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
      Employees["Emergency_Contact_Null_Flag"] = Employees["Emergency_Contact"].apply(lambda x:True if pd.isna(x) else False)
 
      Employees["Dept_ID_Null_Flag"] = Employees["Dept_ID"].apply(lambda x: True if pd.isna(x) else False)
+
+     Employees["Gender"] = Employees["Gender"].str.title()
 
      null_dept_count = Employees["Dept_ID"].isnull().sum()
 
@@ -178,8 +182,6 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
 
      Performance["Rating"] = Performance["Rating"].str.strip()
 
-     Performance["Promotion_Recommended"] = Performance["Promotion_Recommended"].str.strip()
-
      Performance["Manager_Feedback_Flag"] = Performance["Manager_Feedback"].apply(lambda x: True if pd.isna(x) else False )
 
      Performance["Self_Rating"] = Performance["Self_Rating"].fillna(Performance["Self_Rating"].mean())
@@ -190,16 +192,66 @@ def transform(Employees,Departments,Attendance,Performance,Salary):
 
      Salary.columns = Salary.columns.str.strip()
 
+     Salary["Bonus"] = Salary["Bonus"].astype("float64")
 
+     Salary["Bonus_Null_Flag"] = Salary["Bonus"].apply(lambda x: True if pd.isna(x) else False)
 
+     Salary["Bonus"] = Salary["Bonus"].fillna(Salary["Bonus"].median())
 
-     
+     Salary["Effective_To"] = pd.to_datetime(Salary["Effective_To"])
+
+     Salary["Effective_From"] = pd.to_datetime(Salary["Effective_From"])
+
+     Salary["Effective_To_Null_Flag"] = Salary["Effective_To"].apply(lambda x: True if pd.isna(x) else False)
+
+     logger.info("Transformation Process is Completed")
+
+     return Employees,Departments,Attendance,Performance,Salary
+
     except Exception as e:
        
-       logger.error(f"Failed to transform: {e}")
+      logger.error(f"Failed to transform: {e}")
 
-    return Salary.dtypes
+#===========================
+# Load
+#===========================
+
+def load(Employees, Departments, Attendance, Performance, Salary):
+
+   try:
+
+      logging.info("Load Process is Started....")
+
+      db_url = f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}/{os.getenv('DB_NAME')}"
+
+      engine = create_engine(db_url)
+
+      tables = {
+         "Employees": Employees,
+         "Departments": Departments,
+         "Attendance": Attendance,
+         "Performance": Performance,
+         "Salary": Salary
+      }
+
+      for table_name, df in tables.items():
+
+         logging.info(f"Loading {table_name} into MySQL...")
+
+         df.to_sql(table_name,con=engine, if_exists="replace", index=False)
+
+         logging.info(f"{table_name} Loaded Successfully - {len(df)} rows")
+
+      logger.info("Load Process is Completed Successfuully")
+
+   except Exception as e:
+
+      logger.error(f"Failed to load: {e}")
 
 Employees, Departments, Attendance, Performance, Salary = extract()
-show = transform(Employees, Departments, Attendance, Performance, Salary)
-print(show)
+transformed_data = transform(Employees, Departments, Attendance, Performance, Salary)
+
+if transformed_data is not None:
+   load(*transformed_data)
+else:
+   logger.error("Load skipped because the transformation process failed")
